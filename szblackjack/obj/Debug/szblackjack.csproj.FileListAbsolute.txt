@@ -1,0 +1,6 @@
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.csproj.AssemblyReference.cache
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\MainWindow.g.cs
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\App.g.cs
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_Content.g.cs
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_MarkupCompile.cache
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_MarkupCompile.lref
