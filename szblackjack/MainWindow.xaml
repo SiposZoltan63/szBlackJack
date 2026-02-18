@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:szblackjack"
         mc:Ignorable="d"
-        Title="BlackJack" Height="520" Width="900">
+        Title="BlackJack" Height="520" Width="900" Background="#FFF3E008">
     <Grid Margin="12" Background="#FFFFDF4A" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="22*"/>
@@ -41,8 +41,8 @@
                 <TextBlock x:Name="DealerScoreText" Margin="0,8,0,0" FontSize="16"/>
             </StackPanel>
         </Border>
-        <Border Grid.Row="1" Margin="0,119,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444" Grid.ColumnSpan="2" Grid.RowSpan="2">
-            <StackPanel>
+        <Border Grid.Row="1" Margin="0,119,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444" Grid.ColumnSpan="2" Grid.RowSpan="2" Background="#FF11ED32">
+            <StackPanel Background="#FF71FF00">
                 <TextBlock Text="osztó (Dealer)" FontSize="18" FontWeight="SemiBold"/>
                 <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
                     <TextBlock Text="Lapok: " FontWeight="Bold"/>
