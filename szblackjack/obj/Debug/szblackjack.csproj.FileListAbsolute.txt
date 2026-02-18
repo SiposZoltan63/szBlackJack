@@ -4,3 +4,14 @@ C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\App.g.cs
 C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_Content.g.cs
 C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_MarkupCompile.cache
 C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack_MarkupCompile.lref
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\bin\Debug\szblackjack.exe.config
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\bin\Debug\szblackjack.exe
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\bin\Debug\szblackjack.pdb
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\MainWindow.baml
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.g.resources
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack..resources
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.Properties.Resources.resources
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.csproj.GenerateResource.cache
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.csproj.CoreCompileInputs.cache
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.exe
+C:\Users\siposz\Gitwork\szblackjack\szblackjack\obj\Debug\szblackjack.pdb
