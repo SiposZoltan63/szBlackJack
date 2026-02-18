@@ -6,15 +6,19 @@
         xmlns:local="clr-namespace:szblackjack"
         mc:Ignorable="d"
         Title="BlackJack" Height="520" Width="900">
-    <Grid Margin="12">
+    <Grid Margin="12" Background="#FFFFDF4A" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Row="0" Text="BlackJack (21)" FontSize="28" FontWeight="Bold"/>
-        <Border Grid.Row="1" Margin="0,12,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444">
+        <TextBox Grid.Row="0" Text="BlackJack (21)" FontSize="28" FontWeight="Bold" Grid.ColumnSpan="2" Background="#FFF3EB16"/>
+        <Border Grid.Row="1" Margin="0,12,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444" Grid.ColumnSpan="2" Background="#FF50ED0A">
             <StackPanel>
                 <TextBlock Text="osztó (Dealer)" FontSize="18" FontWeight="SemiBold"/>
                 <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
@@ -37,7 +41,7 @@
                 <TextBlock x:Name="DealerScoreText" Margin="0,8,0,0" FontSize="16"/>
             </StackPanel>
         </Border>
-        <Border Grid.Row="2" Margin="0,0,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444">
+        <Border Grid.Row="1" Margin="0,119,0,8" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444" Grid.ColumnSpan="2" Grid.RowSpan="2">
             <StackPanel>
                 <TextBlock Text="osztó (Dealer)" FontSize="18" FontWeight="SemiBold"/>
                 <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
@@ -60,19 +64,19 @@
                 <TextBlock x:Name="PlayerScoreText" Margin="0,8,0,0" FontSize="16"/>
             </StackPanel>
         </Border>
-        <Border Grid.Row="3" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444">
-            <Grid>
-                <Grid.RowDefinitions>
+        <Border Grid.Row="3" Padding="10" CornerRadius="10" BorderThickness="1" BorderBrush="#444" Grid.ColumnSpan="2">
+            <Grid Background="#FF0AFD18">
+                <Grid.RowDefinitions >
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10" Background="#FF35FF0C">
                     <Button x:Name="Btnew" Content="új játék" Width="120" Margin="0,0,10,0" Click="Btnew_Click"/>
                     <Button x:Name="BtnHit" Content="Kérek lapot (hit)" Width="160" Margin="0,0,10,0" Click="BtnHit_Click"/>
                     <Button x:Name="BtnStand" Content="Megállok (Stand)" Width="160" Click="BtnStand_Click"/>
-                </StackPanel>
+                </StackPanel >
                 <TextBlock x:Name="StatusText" Grid.Row="1" FontSize="16" FontWeight="SemiBold"/>
                 <TextBlock Grid.Row="2" Margin="0,12,0,0" Foreground="#666"
                             Text="Szabály: közelíts a 21-hez,de ne lépd túl. Az osztó 17-ig húz." TextWrapping="Wrap" />
